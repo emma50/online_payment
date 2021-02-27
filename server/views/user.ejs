@@ -1,0 +1,17 @@
+<%- include('partials/header') %>
+
+<div class="container mt-5">
+  <div class="row">
+    <div class="col col-sm offset-3">
+      <div class="card border-success mb-3" style="max-width: 28rem;">
+        <div class="card-header">User details</div>
+        <div class="card-body text-success">
+          <h5 class="card-title">Successful user transaction</h5>
+          <p class="card-text">Dear <%= fullName %>, you were debited <%= amount %> in naira for your transaction.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<%- include('partials/footer') %>
