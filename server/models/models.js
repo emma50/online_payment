@@ -1,4 +1,4 @@
-import mongoose from "../config/mongoose"
+import mongoose from '../config/mongoose';
 
 const donorSchema = new mongoose.Schema({
   fullName: {
@@ -15,9 +15,9 @@ const donorSchema = new mongoose.Schema({
   },
   reference: {
     type: String,
-    required: true
-  }
+    required: true,
+  },
 });
 const Donor = mongoose.model('Donor', donorSchema);
 
-export default Donor
+export default Donor;
